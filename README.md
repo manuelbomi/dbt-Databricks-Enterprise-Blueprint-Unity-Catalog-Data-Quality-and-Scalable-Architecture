@@ -507,4 +507,12 @@ dbt-databricks-enterprise-template/
 
 ##### In this section, we have provided infographs through which users can be able to develop dbt from their desktop, and link it into the Databricks Unity Catalog. Our detailed infographs also show stepwise details through which users can implement the dbt project and troubleshoot issues from their IDE to the Databricks environment. 
 
+#### Setting Up & Obtaining the URL, HTTP and dbt Token on Databricks 
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a4d0deb6-318a-4ef1-a5a5-ba2d602a0e7d" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/b3645380-ff02-422f-ba2f-544d136ef076" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/638ddf08-af97-47ee-9590-2ba4ed4472dd" />
+
 
