@@ -564,16 +564,20 @@ dbt-databricks-enterprise-template/
 
 <img width="394" height="197" alt="Image" src="https://github.com/user-attachments/assets/d8758d2b-5760-4490-ac2a-d046e055c837" />
 
-
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0e0fc48a-c603-4dcf-ba49-4a5f566f7812" />
-
+##### Create a corresponding database named workspace in your Databrisks coomunity Edition under SQL Editor
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/5f0c9961-bc02-4f36-b019-d2b46282ac3d" />
 
+##### The project is now ready
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dc7e0b8e-a457-4b09-a460-e67124f4f8d4" />
 
+##### Switch now to the main project folder
 <img width="1109" height="346" alt="Image" src="https://github.com/user-attachments/assets/fbdf0f17-5c99-461c-9fe1-38de69f28edc" />
 
+#####  Add it to the workspace
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2f534745-3c77-47ab-b554-33d4ba4ecb06" />
+
+##### This is our dbt project structure
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0e0fc48a-c603-4dcf-ba49-4a5f566f7812" />
 
 
 
