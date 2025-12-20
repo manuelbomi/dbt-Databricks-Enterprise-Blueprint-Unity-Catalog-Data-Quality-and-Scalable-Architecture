@@ -269,9 +269,9 @@ dbt seed  # Loads data.csv into Databricks
 
 ---
 
-#### Built with ❤️ by [Emmanuel Oyekanly] | Enterprise Data Engineer & dbt Evangelist
+#### Built with ❤️ by Emmanuel Oyekanlu terprise Data, AI Engineer & dbt Evangelist
 
-Star this repo if you found it helpful! ⭐
+##### Star this repo if you found it helpful! ⭐
 
 ---
 
