@@ -546,13 +546,13 @@ dbt-databricks-enterprise-template/
 
 ##### Provide the hostname, http path and access token from your Databricks workspace
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a4520d04-6f0e-44e6-b380-611e613e0630" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/ccbe93cb-1dad-43c8-b92b-394a92a057fe" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/8daa1b95-b0b4-4d3a-a754-476ae78b45fb" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4c1fdfbc-0e6b-4645-a217-d8755afd8711" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a3fa976b-eec4-433d-b644-49c512e75f60" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/94f25aa2-fb4e-485f-a5b2-ee348ed5f0b6" />
 
-<img width="394" height="197" alt="Image" src="https://github.com/user-attachments/assets/7dc86869-e759-4231-a813-c318bc6195f9" />
+<img width="394" height="197" alt="Image" src="https://github.com/user-attachments/assets/d8758d2b-5760-4490-ac2a-d046e055c837" />
 
 
 
