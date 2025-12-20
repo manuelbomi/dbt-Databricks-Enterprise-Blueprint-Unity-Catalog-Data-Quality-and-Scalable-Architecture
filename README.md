@@ -696,6 +696,20 @@ dbt-databricks-enterprise-template/
 #####  You can select the severity as an error in dbt_project.yml and set it as a warning in model1.sql level
 <img width="995" height="432" alt="Image" src="https://github.com/user-attachments/assets/d59af9eb-2838-48d2-ba37-946ff8a67db1" />
 
+##### Define macros named new_macros_1.sql and use the macro as a fucnction to add new column to model1
+
+##### Use the macro to add new column to model1.sql and call it as a fucntion on the first_name column. It will add a new column to model1.sql model on out Databricks workspace
+<img width="1165" height="472" alt="Image" src="https://github.com/user-attachments/assets/5b21479b-cbc1-41f9-a110-f951d1a4b997" />
+
+##### So this will add a new column named macro_new_column to our model1 table on Databricks
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/ac3ab56f-0075-4526-a77b-56d673722d78" />
+
+##### So the macro_new_column column is added on yoyr Datbricks workspace
+<img width="1267" height="656" alt="Image" src="https://github.com/user-attachments/assets/8715308f-d1d3-4ac6-9237-f966bf79a235" />
+
+##### dbt seed will upload a csv file unto your target warehouse
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/1daab7b1-8da8-4943-9f75-339db627d02a" />
+
 
 
 
