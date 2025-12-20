@@ -543,23 +543,16 @@ dbt-databricks-enterprise-template/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/56981ed4-9e92-4477-add1-6d6652f25925" />
 
+
 ##### Provide the hostname, http path and access token from your Databricks workspace
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/91c8b74e-c937-4b7c-a54c-f43e2399076e" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a4520d04-6f0e-44e6-b380-611e613e0630" />
 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/8daa1b95-b0b4-4d3a-a754-476ae78b45fb" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/e933529b-41ee-4592-874f-39e8434d0776" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a3fa976b-eec4-433d-b644-49c512e75f60" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/7efbcc21-73d5-4e90-957e-97b3bf20fcb5" />
-
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0deb5565-08e7-42d5-8f49-0150aea91dd9" />
-
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/3bf19860-728e-43fb-b1ac-957c0ea283de" />
-
-<img width="394" height="197" alt="Image" src="https://github.com/user-attachments/assets/b4fa3799-8bed-4643-a848-0c31feefd92a" />
-
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/c1157325-1675-4f9c-be09-9f6bb3195df1" />
-
+<img width="394" height="197" alt="Image" src="https://github.com/user-attachments/assets/7dc86869-e759-4231-a813-c318bc6195f9" />
 
 
 
