@@ -682,10 +682,11 @@ dbt-databricks-enterprise-template/
 <img width="1094" height="474" alt="Image" src="https://github.com/user-attachments/assets/49c09e7b-521b-42e2-87c7-0761cf92ebec" />
 
 ##### that is why it is throwing errors here so we need to suppress the uniqueness test
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2cadd32d-408e-4a39-9ed2-3b2b04a39695" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bedcdaa0-1662-4fd8-94aa-49b7e3349a85" />
 
 ##### It now passes all teh data quality tests
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bedcdaa0-1662-4fd8-94aa-49b7e3349a85" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2cadd32d-408e-4a39-9ed2-3b2b04a39695" />
+
 
 
 
