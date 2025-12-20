@@ -608,6 +608,15 @@ dbt-databricks-enterprise-template/
 ##### dbt run will push the project into your Databricks workspace
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bb30c8e1-0ddf-46d7-9645-2bc3c52f449b" />
 
+##### Your project now exist in your Catalogue Workspace in Databricks
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/03029c42-1564-45d9-b896-2479f02456bc" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/27806a4d-7dac-4e14-a6f3-743673d95329" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/279da130-c5b5-4c76-8608-3dc8988ec161" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/08e1beed-f04a-415c-89b4-2a259f824cca" />
+
 
 
 
