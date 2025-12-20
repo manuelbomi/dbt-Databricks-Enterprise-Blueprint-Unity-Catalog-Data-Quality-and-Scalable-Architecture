@@ -252,6 +252,30 @@ dbt seed  # Loads data.csv into Databricks
 
 - Sharing real-world use cases
 
+---
+
+## License
+#### MIT License - see LICENSE file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Databricks for the Free Edition with Unity Catalog support
+
+- dbt Labs for the incredible transformation framework @ https://docs.getdbt.com/docs/introduction
+
+- Community contributors who share knowledge and patterns. For example,  Apostolos Athanasiou @ https://www.youtube.com/watch?v=uRSLG63UR4w
+
+---
+
+#### Built with ❤️ by [Emmanuel Oyekanly] | Enterprise Data Engineer & dbt Evangelist
+
+Star this repo if you found it helpful! ⭐
+
+---
+
+
 
 
 
