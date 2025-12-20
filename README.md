@@ -595,9 +595,15 @@ dbt-databricks-enterprise-template/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a7a0647e-66ec-4af4-9d41-596d9a6df3b1" />
 
-##### dbt compile will create a target file which will contain your compiled models. dbt run will push the models into yourtarget database
+##### dbt compile will create a target file which will contain your compiled models. dbt run will push the models into your target database
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/d58cc33d-9551-42a6-94d1-2b864e15eaee" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bb30c8e1-0ddf-46d7-9645-2bc3c52f449b" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/07b78106-6265-4122-9262-a8a36031154e" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/673fac07-6a9e-414c-870a-01c9c61f6cca" />
 
 
 
