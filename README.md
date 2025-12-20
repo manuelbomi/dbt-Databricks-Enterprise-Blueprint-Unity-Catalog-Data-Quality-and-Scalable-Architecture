@@ -183,7 +183,7 @@ dbt seed  # Loads data.csv into Databricks
 
 ### Databricks Unity Catalog Migration Report & Summary of Improvements
 
-#### The Databricks Community Edition does not support Unity Catalog. However, recently, Databricks have started phasing out the Community Edition for a Free Edition that supports Unity Catalog. The Free Edition is used in this project with its Unity Catalog framework named as 'workspace in the project'. Below is a summary of improvements yielded by the support offered by the availability of Unity Catalog. 
+##### The Databricks Community Edition does not support Unity Catalog. However, recently, Databricks have started phasing out the Community Edition for a Free Edition that supports Unity Catalog. The Free Edition is used in this project with its Unity Catalog framework named as 'workspace in the project'. Below is a summary of improvements yielded by the support offered by the availability of Unity Catalog. 
 
 | Category | Before Migration | After Migration | Impact |
 |----------|------------------|-----------------|--------|
@@ -195,6 +195,34 @@ dbt seed  # Loads data.csv into Databricks
 
 **Overall Status:** ✅ **Migration Successful**  
 **Key Achievement:** Transition from error-prone legacy system to fully automated Unity Catalog pipeline
+
+---
+
+## Performance Metrics
+
+- Test Execution: 3 data tests in 25.83 seconds
+
+- Model Build Time: 16.12 seconds for 2 models
+
+- Documentation Generation: Fully automated lineage graphs
+
+---
+
+## Troubleshooting Guide
+
+#### Common dbt Databricks Issues & Solutions
+
+```python
+## Troubleshooting Guide: Databricks & dbt Integration
+
+| Error/Issue | Recommended Solution | Visual Reference (available in Miscellaneous) |
+|-------------|---------------------|------------------|
+| `UC_HIVE_METASTORE_DISABLED_EXCEPTION` | Migrate to Unity Catalog:<br>`catalog: workspace`<br>`schema: your_schema` | ![Hive Error](UC_HIVE_METASTORE_DISABLED_EXCEPTION.png) |
+| `NO_SUCH_CATALOG_EXCEPTION` | 1. Check catalog exists in Databricks UI<br>2. Verify user permissions | ![Catalog Error](NO_SUCH_CATALOG_EXCEPTION.png) |
+| Token authentication failures | 1. Generate new token in Databricks<br>2. Update `~/.dbt/profiles.yml` | ![Token Setup](generate-new-token.png) |
+| Test severity configuration conflicts | Review hierarchy:<br>1. Model-level config<br>2. Project config<br>3. dbt defaults | ![Severity Config](severity-configuration.png) |
+
+```
 
 ---
 
