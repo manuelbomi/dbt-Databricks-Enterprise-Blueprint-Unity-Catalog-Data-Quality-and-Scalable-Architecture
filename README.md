@@ -710,6 +710,12 @@ dbt-databricks-enterprise-template/
 ##### dbt seed will upload a csv file unto your target warehouse
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/1daab7b1-8da8-4943-9f75-339db627d02a" />
 
+##### dbt seed will upload a csv file unto your target warehouse
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/180196a4-0b59-4558-b836-96ce5bf669cd" />
+
+##### The Databriscks target warehouse infers the data types
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/98ec4d46-d9c9-417b-9c3b-715d6af4901f" />
+
 
 
 
