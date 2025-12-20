@@ -672,6 +672,12 @@ dbt-databricks-enterprise-template/
 ##### The model2 view is created
 <img width="1266" height="637" alt="Image" src="https://github.com/user-attachments/assets/20ed24c1-2b7a-4232-9229-03da31cfcf9c" />
 
+##### 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/095e29e6-aaa5-49c2-be77-8460a045a0b8" />
+
+##### 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/ccc3fcc7-d522-42a8-bd70-a8eb4da7b53e" />
+
 
 
 
