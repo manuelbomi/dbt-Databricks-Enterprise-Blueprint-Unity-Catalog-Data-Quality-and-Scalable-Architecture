@@ -617,6 +617,16 @@ dbt-databricks-enterprise-template/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/08e1beed-f04a-415c-89b4-2a259f824cca" />
 
+##### Use dbt test for data quality test
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/572490b1-9b1e-4a02-8251-3ed8ad926d7a" />
+
+##### That fails becaus ewe selected null in the first model; and in the schema.yml where we define the data quality checks we detailed dbt to watch for null values
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2efd7a49-16b1-4acd-93d8-9e90ab0981ea" />
+
+##### This is why we are having the data quality issue
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/039b333f-9a23-4bff-a092-787a713d4489" />
+
 
 
 
