@@ -42,6 +42,23 @@ python --version
 pip install dbt-core dbt-databricks
 
 ```
+---
+
+### 2. Clone & Setup
+
+```python
+
+git clone https://github.com/yourusername/dbt-databricks-enterprise-template.git
+cd dbt-databricks-enterprise-template
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+```
 
 
 ## Miscellaneous
