@@ -30,6 +30,218 @@ This repository documents a complete journey from initial setup to production de
 
 ##  Quick Start
 
+### Repository Structure 
+dbt-databricks-enterprise-template/
+│
+├── .github/
+│   └── workflows/
+│       ├── dbt-test.yml                      # Automated testing pipeline
+│       ├── dbt-docs-deploy.yml               # Documentation deployment
+│       └── dbt-schedule.yml                  # Scheduled dbt runs
+│
+├── docs/
+│   ├── setup-guide/
+│   │   ├── 01-environment-setup.md
+│   │   ├── 02-databricks-configuration.md
+│   │   ├── 03-dbt-installation.md
+│   │   ├── 04-unity-catalog-setup.md
+│   │   └── 05-troubleshooting-common-errors.md
+│   │
+│   ├── tutorials/
+│   │   ├── basic-models.md
+│   │   ├── advanced-macros.md
+│   │   ├── testing-framework.md
+│   │   ├── documentation-generation.md
+│   │   ├── jinja-templating.md
+│   │   └── seed-data-management.md
+│   │
+│   ├── architecture/
+│   │   ├── data-quality-framework.md
+│   │   ├── severity-management.md
+│   │   ├── enterprise-patterns.md
+│   │   ├── unity-catalog-best-practices.md
+│   │   └── ci-cd-strategy.md
+│   │
+│   └── references/
+│       ├── command-cheatsheet.md
+│       ├── error-solutions.md
+│       └── configuration-reference.md
+│
+├── dbt_project/
+│   │
+│   ├── models/
+│   │   ├── staging/
+│   │   │   ├── sources.yml
+│   │   │   ├── _staging__sources.md
+│   │   │   ├── stg_customers.sql
+│   │   │   └── stg_transactions.sql
+│   │   │
+│   │   ├── intermediate/
+│   │   │   ├── int_customer_orders.sql
+│   │   │   ├── int_product_sales.sql
+│   │   │   └── int_joined_data.sql
+│   │   │
+│   │   ├── marts/
+│   │   │   ├── core/
+│   │   │   │   ├── dim_customers.sql
+│   │   │   │   ├── fact_orders.sql
+│   │   │   │   └── schema.yml
+│   │   │   │
+│   │   │   └── finance/
+│   │   │       ├── fct_revenue.sql
+│   │   │       └── schema.yml
+│   │   │
+│   │   └── example/
+│   │       ├── model1.sql                  # Your demonstration models
+│   │       ├── model2.sql
+│   │       ├── model3.sql
+│   │       ├── model4.sql
+│   │       ├── schema.yml
+│   │       ├── source.yml
+│   │       └── _example_models.md
+│   │
+│   ├── macros/
+│   │   ├── custom/
+│   │   │   ├── dbt_databricks_proj_macro.sql
+│   │   │   ├── generate_surrogate_key.sql
+│   │   │   ├── date_calculation.sql
+│   │   │   └── data_quality_checks.sql
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── logging_macros.sql
+│   │   │   ├── schema_management.sql
+│   │   │   └── environment_helpers.sql
+│   │   │
+│   │   └── packages/
+│   │       └── dbt_utils_overrides.sql
+│   │
+│   ├── tests/
+│   │   ├── generic/
+│   │   │   ├── assert_not_null.sql
+│   │   │   ├── assert_unique.sql
+│   │   │   └── assert_positive_value.sql
+│   │   │
+│   │   ├── custom/
+│   │   │   ├── test_customer_referral_loop.sql
+│   │   │   └── test_data_freshness.sql
+│   │   │
+│   │   └── data_quality/
+│   │       └── dq_macro_tests.sql
+│   │
+│   ├── seeds/
+│   │   ├── data.csv
+│   │   ├── reference_countries.csv
+│   │   ├── reference_currencies.csv
+│   │   └── _seeds_documentation.md
+│   │
+│   ├── snapshots/
+│   │   ├── scd_type2_customers.sql
+│   │   └── _snapshots_guide.md
+│   │
+│   ├── analyses/
+│   │   ├── adhoc_customer_analysis.sql
+│   │   └── _analyses_purpose.md
+│   │
+│   ├── documentation/
+│   │   ├── doc_dbt_databricks_proj.md
+│   │   ├── project_overview.md
+│   │   ├── business_glossary.md
+│   │   └── data_dictionary.md
+│   │
+│   ├── dbt_project.yml
+│   ├── packages.yml
+│   ├── profiles.yml.example
+│   ├── .gitignore
+│   └── README_project.md
+│
+├── scripts/
+│   ├── setup/
+│   │   ├── setup-environment.sh
+│   │   ├── setup-databricks-connection.sh
+│   │   └── setup-dbt-profile.sh
+│   │
+│   ├── operations/
+│   │   ├── run-tests.sh
+│   │   ├── generate-docs.sh
+│   │   ├── run-models-by-tag.sh
+│   │   └── clean-target.sh
+│   │
+│   ├── monitoring/
+│   │   ├── check-model-freshness.sh
+│   │   └── validate-data-quality.sh
+│   │
+│   └── utilities/
+│       ├── backup-profiles.sh
+│       ├── migrate-config.sh
+│       └── update-packages.sh
+│
+├── config/
+│   ├── environments/
+│   │   ├── dev.yml
+│   │   ├── staging.yml
+│   │   └── prod.yml
+│   │
+│   ├── databricks/
+│   │   ├── connection-template.json
+│   │   ├── unity-catalog-setup.sql
+│   │   └── warehouse-configuration.md
+│   │
+│   ├── dbt/
+│   │   ├── variables-template.yml
+│   │   ├── custom-tests-template.yml
+│   │   └── model-config-template.yml
+│   │
+│   └── ci-cd/
+│       ├── environment-variables.example
+│       ├── deployment-checklist.md
+│       └── rollback-procedure.md
+│
+├── tests/
+│   ├── integration/
+│   │   ├── test_connection.py
+│   │   └── test_model_generation.py
+│   │
+│   ├── unit/
+│   │   ├── test_macros.py
+│   │   └── test_utils.py
+│   │
+│   └── fixtures/
+│       └── sample_data.json
+│
+├── examples/
+│   ├── use-cases/
+│   │   ├── ecommerce/
+│   │   │   ├── models/
+│   │   │   ├── macros/
+│   │   │   └── README.md
+│   │   │
+│   │   └── finance/
+│   │       ├── models/
+│   │       ├── tests/
+│   │       └── README.md
+│   │
+│   └── migrations/
+│       ├── hive-to-uc/
+│       │   ├── migration-strategy.md
+│       │   └── sql-scripts/
+│       │
+│       └── legacy-to-modern/
+│           └── upgrade-guide.md
+│
+├── .env.example
+├── .gitignore
+├── .dbtignore
+├── pyproject.toml
+├── requirements.txt
+├── requirements-dev.txt
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── CHANGELOG.md
+├── ROADMAP.md
+├── LICENSE
+└── SECURITY.md
+
 ### 1. Prerequisites
 ```bash
 # Python 3.8+
