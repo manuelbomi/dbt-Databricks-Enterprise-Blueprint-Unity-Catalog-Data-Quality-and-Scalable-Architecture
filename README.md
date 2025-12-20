@@ -725,6 +725,12 @@ dbt-databricks-enterprise-template/
 ##### This is an example of how to use loops to fetch multiple columns from a source data and create another dataset in the target  space
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/865da607-576f-4194-9209-6cf12594b69c" />
 
+#####  Create document folder document file put function to call the comment or document and use the doc in another file
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/c770eb49-a735-4b8a-9515-4b4260ed5bab" />
+
+##### Create document folder document file put function to call the comment or document and use the doc in another file use the doc to generate comments here
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4906a87f-c01e-4aba-8e5a-6a4266fd173e" />
+
 
 
 
