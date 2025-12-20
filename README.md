@@ -716,6 +716,15 @@ dbt-databricks-enterprise-template/
 ##### The Databriscks target warehouse infers the data types
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/98ec4d46-d9c9-417b-9c3b-715d6af4901f" />
 
+##### This is an example of how to use loops to fetch multiple columns from a source data and create another dataset in the target  space
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/34fa2b6c-7eb1-4ce6-9dea-d50803af6d21" />
+
+##### This is an example of how to use loops to fetch multiple columns from a source data and create another dataset in the target  space
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bb8c3daa-24c5-4aef-9e8e-874d0e091df4" />
+
+##### This is an example of how to use loops to fetch multiple columns from a source data and create another dataset in the target  space
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/865da607-576f-4194-9209-6cf12594b69c" />
+
 
 
 
