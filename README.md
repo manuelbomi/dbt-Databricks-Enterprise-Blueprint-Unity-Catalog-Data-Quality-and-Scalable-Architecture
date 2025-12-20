@@ -60,6 +60,20 @@ pip install -r requirements.txt
 
 ```
 
+---
+
+### 3. Configure Databricks Connection
+
+- [x] Generate personal access token in Databricks
+
+- [x]  Copy SQL warehouse HTTP path
+
+- [x]  Update profiles.yml (use provided template)
+
+---
+
+### 4. Initialize & Test
+
 
 ## Miscellaneous
 
