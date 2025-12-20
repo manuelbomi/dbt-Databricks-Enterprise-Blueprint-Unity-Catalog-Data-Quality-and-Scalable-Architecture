@@ -675,18 +675,20 @@ dbt-databricks-enterprise-template/
 #####  Select only model1 to run and test
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/095e29e6-aaa5-49c2-be77-8460a045a0b8" />
 
-#####  Referntial integrity makes the dbt test select model1 run to fail since all custmomerID rows in model1 does not match those of model2
+#####  Referential integrity makes the dbt test select model1 run to fail since all custmomerID rows in model1 does not match those of model2
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/ccc3fcc7-d522-42a8-bd70-a8eb4da7b53e" />
 
+##### Comment out the referential integrity test to see if the test will pass
+<img width="1094" height="474" alt="Image" src="https://github.com/user-attachments/assets/49c09e7b-521b-42e2-87c7-0761cf92ebec" />
+
+##### that is why it is throwing errors here so we need to suppress the uniqueness test
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2cadd32d-408e-4a39-9ed2-3b2b04a39695" />
+
+##### It now passes all teh data quality tests
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bedcdaa0-1662-4fd8-94aa-49b7e3349a85" />
 
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/5bfded33-8134-4367-93b3-a1228e5f6c05" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/92b417e8-1c20-4785-afdf-58499c3d1cff" />
-
-<img width="1124" height="639" alt="Image" src="https://github.com/user-attachments/assets/08a1ded5-506e-4b3b-a77e-a3c1257b7216" />
-
-<img width="1094" height="474" alt="Image" src="https://github.com/user-attachments/assets/88389cc5-0ce0-4a68-90d6-417344e44cb3" />
 
 
 
