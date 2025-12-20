@@ -224,8 +224,33 @@ dbt seed  # Loads data.csv into Databricks
 | Test severity configuration conflicts | Review hierarchy:<br>1. Model-level config<br>2. Project config<br>3. dbt defaults | ![Severity Config](severity-configuration.png) |
 
 
+---
+
+## Learning Path
+
+#### Beginner to Expert Journey
+
+- Week 1: Basic models and dbt run (screenshots)
+
+- Week 2: Data quality testing with dbt test (screenshots)
+
+- Week 3: Macros and Jinja templating (screenshots)
+
+- Week 4: Production patterns and documentation (screenshots)
 
 ---
+
+## Contribution
+
+#### This template is designed to grow with community input. See CONTRIBUTING.md for:
+
+- Adding new model patterns
+
+- Extending the testing framework
+
+- Improving documentation
+
+- Sharing real-world use cases
 
 
 
