@@ -185,6 +185,7 @@ dbt seed  # Loads data.csv into Databricks
 
 ##### The Databricks Community Edition does not support Unity Catalog. However, recently, Databricks have started phasing out the Community Edition for a Free Edition that supports Unity Catalog. The Free Edition is used in this project with its Unity Catalog framework named as 'workspace in the project'. Below is a summary of improvements yielded by the support offered by the availability of Unity Catalog. 
 
+
 | Category | Before Migration | After Migration | Impact |
 |----------|------------------|-----------------|--------|
 | **Connectivity** | Error: `UC_HIVE_METASTORE_DISABLED_EXCEPTION` | ✅ All connections validated | Elimination of connectivity errors |
@@ -212,7 +213,7 @@ dbt seed  # Loads data.csv into Databricks
 
 #### Common dbt Databricks Issues & Solutions
 
-```python
+
 ## Troubleshooting Guide: Databricks & dbt Integration
 
 | Error/Issue | Recommended Solution | Visual Reference (available in Miscellaneous) |
@@ -222,7 +223,7 @@ dbt seed  # Loads data.csv into Databricks
 | Token authentication failures | 1. Generate new token in Databricks<br>2. Update `~/.dbt/profiles.yml` | ![Token Setup](generate-new-token.png) |
 | Test severity configuration conflicts | Review hierarchy:<br>1. Model-level config<br>2. Project config<br>3. dbt defaults | ![Severity Config](severity-configuration.png) |
 
-```
+
 
 ---
 
