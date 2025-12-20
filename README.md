@@ -628,6 +628,15 @@ dbt-databricks-enterprise-template/
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/039b333f-9a23-4bff-a092-787a713d4489" />
 
 
+##### If we remove the not null data quality check
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/8fa12f9c-ea94-470f-bf5a-42b54c8aa36b" />
+
+##### Our data quality check will now pass
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/1ac278e7-3125-4f0f-b141-8053dc26949e" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2c9dc0e5-2cc1-4bd0-af94-b0a8bff4ef24" />
+
+
 
 
 
