@@ -16,7 +16,7 @@ This repository documents a complete journey from initial setup to production de
 - **Data quality framework** with configurable severity levels
 - **Enterprise patterns** for scalable data modeling
 - **Automated documentation** with dbt docs serve
-- **CI/CD integration** for testing and deployment
+
 
 ##  Key Features
 
