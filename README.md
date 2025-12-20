@@ -552,11 +552,15 @@ dbt-databricks-enterprise-template/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4c1fdfbc-0e6b-4645-a217-d8755afd8711" />
 
-##### Give the schema a name
+##### Give the schema a name. Select how many orders to run in parallel, We select 5 here.
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/94f25aa2-fb4e-485f-a5b2-ee348ed5f0b6" />
 
-##### Select how many orders to run in parallel, We select 5 here. Content of the profiles.yaml file in the .dbt folder
+#####  I can see my dbt profiles.yaml by clicking on its link
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/d9b9f796-e894-4461-9053-87e9296d3de1" />
+
+##### Content of the profiles.yaml file in the .dbt folder
 
 <img width="394" height="197" alt="Image" src="https://github.com/user-attachments/assets/d8758d2b-5760-4490-ac2a-d046e055c837" />
 
