@@ -30,6 +30,22 @@ This repository documents a complete journey from initial setup to production de
 
 ##  Quick Start
 
+
+
+### 1. Prerequisites
+```bash
+# Python 3.8+
+python --version
+
+# Databricks Account (Free Edition supports Unity Catalog)
+# dbt-core and databricks adapter
+pip install dbt-core dbt-databricks
+
+```
+
+
+## Miscellaneous
+
 ### Repository Structure 
 
 ```python
@@ -246,11 +262,4 @@ dbt-databricks-enterprise-template/
 
 ```
 
-### 1. Prerequisites
-```bash
-# Python 3.8+
-python --version
 
-# Databricks Account (Free Edition supports Unity Catalog)
-# dbt-core and databricks adapter
-pip install dbt-core dbt-databricks
