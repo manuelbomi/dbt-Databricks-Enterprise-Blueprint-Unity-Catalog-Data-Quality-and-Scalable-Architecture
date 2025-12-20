@@ -687,6 +687,9 @@ dbt-databricks-enterprise-template/
 ##### It now passes all the data quality tests
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2cadd32d-408e-4a39-9ed2-3b2b04a39695" />
 
+#####  We can re-add the uniqueness data test back and set the severity level as a warning in dbt_project. So it now only give a warning and not an error
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/9ae036bb-5f6c-4015-89c6-368e78ce4dee" />
+
 
 
 
