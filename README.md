@@ -599,11 +599,14 @@ dbt-databricks-enterprise-template/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/d58cc33d-9551-42a6-94d1-2b864e15eaee" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bb30c8e1-0ddf-46d7-9645-2bc3c52f449b" />
-
+##### Compiled CTE model example
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/07b78106-6265-4122-9262-a8a36031154e" />
 
+##### Second compiled model that reference the first model
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/673fac07-6a9e-414c-870a-01c9c61f6cca" />
+
+##### dbt run will push the project into your Databricks workspace
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bb30c8e1-0ddf-46d7-9645-2bc3c52f449b" />
 
 
 
