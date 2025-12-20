@@ -636,14 +636,31 @@ dbt-databricks-enterprise-template/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2c9dc0e5-2cc1-4bd0-af94-b0a8bff4ef24" />
 
-
+##### Create packages.yml file at the project root
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/433eace1-82d7-4dc8-ac7b-a9043115ee2d" />
 
+#####  Put some needed package in the package.yaml file
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/21140389-6ff9-4ff5-89f5-7c2daa95f28c" />
 
+##### Install using dbt deps
 <img width="709" height="347" alt="Image" src="https://github.com/user-attachments/assets/f597d282-3e37-46be-868f-0ea685e1deb5" />
 
 <img width="1156" height="479" alt="Image" src="https://github.com/user-attachments/assets/308f0705-8652-4449-9d91-ccf7cb0df83d" />
+
+#####  Bakehouse sample in our Databricks Catalog under samples
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/92f4338a-963a-4f1a-bd35-0d1dacbe0c8f" />
+
+##### Delete the previous models and the schema.yml file
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/32f9cde6-981c-4fec-808a-b39977adaf5d" />
+
+##### Bakehouse sales_customer data
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/58bd4814-9b14-49fb-9e52-df23ec383ed4" />
+
+##### Create source.yml to run against the customers_sales table
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4fe93916-0268-484b-941d-8676d055c462" />
+
+##### Now create an sql model named model1 as a materialized table againt the source.yml file
+<img width="1084" height="432" alt="Image" src="https://github.com/user-attachments/assets/a811c3ef-c698-43bc-818c-cc0877ed709a" />
 
 
 
