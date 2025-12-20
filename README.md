@@ -731,6 +731,15 @@ dbt-databricks-enterprise-template/
 ##### Create document folder document file put function to call the comment or document and use the doc in another file use the doc to generate comments here
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4906a87f-c01e-4aba-8e5a-6a4266fd173e" />
 
+#####  You can also define tags
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4b69897d-a37f-469a-b13e-4e2c4e17692b" />
+
+#####  You can use the tag anywhere
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/45a07ee9-7623-44d2-b32c-36c5fcc56e3a" />
+
+##### Your dbt run --select will run only models with the tags
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4d377d00-b66f-4e90-9d97-5130f43f4a98" />
+
 
 
 
