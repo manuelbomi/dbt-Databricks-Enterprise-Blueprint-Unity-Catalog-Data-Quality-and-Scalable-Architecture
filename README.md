@@ -5,7 +5,9 @@
 [![Databricks](https://img.shields.io/badge/Databricks-Unity%20Catalog-FF3621)](https://databricks.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-A production-ready template for implementing dbt with Databricks Unity Catalog, featuring comprehensive data quality testing, documentation generation, and enterprise-grade architecture patterns.
+##### A production-ready template for implementing dbt with Databricks Unity Catalog, featuring comprehensive data quality testing, documentation generation, and enterprise-grade architecture patterns. 
+
+##### This repository also provide inforgraphs (in miscellaneous) through which users can be able to implement dbt for their enterprise workflows from ground up.
 
 ##  Why This Template?
 
