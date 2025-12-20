@@ -114,6 +114,24 @@ profiles.yml: Connection profiles (keep secure, use environment variables)
 ```
 
 
+## Data Quality Framework
+
+- Test Severity Management
+  
+- Configure test behavior at different levels:
+
+```python
+# Project-level severity (dbt_project.yml)
+tests:
+  dbt_databricks_proj:
+    severity: error  # Default: fail on test failure
+
+# Model-level override (model1.sql)
+{{ config(materialized='table', severity='warn') }}
+# Test will produce warning instead of error
+```
+
+
 
 
 
