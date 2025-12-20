@@ -637,6 +637,15 @@ dbt-databricks-enterprise-template/
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2c9dc0e5-2cc1-4bd0-af94-b0a8bff4ef24" />
 
 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/433eace1-82d7-4dc8-ac7b-a9043115ee2d" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/21140389-6ff9-4ff5-89f5-7c2daa95f28c" />
+
+<img width="709" height="347" alt="Image" src="https://github.com/user-attachments/assets/f597d282-3e37-46be-868f-0ea685e1deb5" />
+
+<img width="1156" height="479" alt="Image" src="https://github.com/user-attachments/assets/308f0705-8652-4449-9d91-ccf7cb0df83d" />
+
+
 
 
 
