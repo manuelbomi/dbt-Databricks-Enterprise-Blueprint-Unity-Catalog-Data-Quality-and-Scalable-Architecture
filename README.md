@@ -74,6 +74,49 @@ pip install -r requirements.txt
 
 ### 4. Initialize & Test
 
+```python
+dbt debug  # Verify connection
+dbt run    # Build models
+dbt test   # Run data quality tests
+dbt docs generate  # Create documentation
+dbt docs serve     # View at localhost:8080
+
+```
+
+---
+
+### Project Structure Deep Dive
+
+> [!NOTE]
+>
+> Please see the full project structure under Miscellaneous. Only the dbt models are focused on here.
+>
+
+
+```python
+models/
+├── staging/          # Raw data ingestion
+├── intermediate/     # Transformations and joins
+├── marts/           # Business-ready datasets
+└── example/         # Tutorial models (your implementations)
+```
+
+### Key Configuration Files
+
+```python
+
+dbt_project.yml: Project-wide settings, model configurations, severity levels
+
+packages.yml: External package dependencies (dbt_utils, etc.)
+
+profiles.yml: Connection profiles (keep secure, use environment variables)
+
+```
+
+
+
+
+
 
 ## Miscellaneous
 
