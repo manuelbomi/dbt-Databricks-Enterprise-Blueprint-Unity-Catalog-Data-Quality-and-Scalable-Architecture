@@ -681,7 +681,7 @@ dbt-databricks-enterprise-template/
 ##### Comment out the referential integrity test to see if the test will pass
 <img width="1094" height="474" alt="Image" src="https://github.com/user-attachments/assets/49c09e7b-521b-42e2-87c7-0761cf92ebec" />
 
-##### that is why it is throwing errors here so we need to suppress the uniqueness test
+##### That is why it is throwing errors here so we need to suppress the uniqueness test
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bedcdaa0-1662-4fd8-94aa-49b7e3349a85" />
 
 ##### It now passes all the data quality tests
@@ -689,6 +689,12 @@ dbt-databricks-enterprise-template/
 
 #####  We can re-add the uniqueness data test back and set the severity level as a warning in dbt_project. So it now only give a warning and not an error
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/9ae036bb-5f6c-4015-89c6-368e78ce4dee" />
+
+##### You can select the severity as an error in dbt_project.yml and set it as a warning in model1.sql level
+<img width="1001" height="398" alt="Image" src="https://github.com/user-attachments/assets/014a8f56-1a8d-4a14-9f66-f9956db7400e" />
+
+#####  You can select the severity as an error in dbt_project.yml and set it as a warning in model1.sql level
+<img width="995" height="432" alt="Image" src="https://github.com/user-attachments/assets/d59af9eb-2838-48d2-ba37-946ff8a67db1" />
 
 
 
