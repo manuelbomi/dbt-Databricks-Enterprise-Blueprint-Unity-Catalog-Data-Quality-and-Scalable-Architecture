@@ -663,10 +663,11 @@ dbt-databricks-enterprise-template/
 <img width="1084" height="432" alt="Image" src="https://github.com/user-attachments/assets/a811c3ef-c698-43bc-818c-cc0877ed709a" />
 
 ##### dbt run to run the 2 new models
-<img width="1257" height="664" alt="Image" src="https://github.com/user-attachments/assets/cf28a136-0c62-4363-96f1-e75c86c0d4c5" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/e6ead0a7-6abe-4dcb-a64d-db53815937c7" />
+
 
 ##### The model1 table is created in Databricks workspace
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/e6ead0a7-6abe-4dcb-a64d-db53815937c7" />
+<img width="1257" height="664" alt="Image" src="https://github.com/user-attachments/assets/cf28a136-0c62-4363-96f1-e75c86c0d4c5" />
 
 ##### The model2 view is created
 <img width="1266" height="637" alt="Image" src="https://github.com/user-attachments/assets/20ed24c1-2b7a-4232-9229-03da31cfcf9c" />
