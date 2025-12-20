@@ -501,4 +501,9 @@ dbt-databricks-enterprise-template/
 
 ```
 
+--- 
+## Implementation Infographs
+
+##### In this section, we have provided infographs through which users can be able to develop dbt from their desktop, and link it into the Databricks Unity Catalog. Our detailed infographs also show stepwise details through which users can implement the dbt project and troubleshoot issues from their IDE to the Databricks environment. 
+
 
