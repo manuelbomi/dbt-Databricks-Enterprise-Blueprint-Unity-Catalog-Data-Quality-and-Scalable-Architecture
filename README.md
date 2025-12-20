@@ -509,6 +509,8 @@ dbt-databricks-enterprise-template/
 
 #### 1. Setting Up & Obtaining the URL, HTTP and dbt Token on Databricks 
 
+#### Use your enterprise Databricks account, or register for a Free Edition of Databricks
+
 
 #### Navigate to compute
 
