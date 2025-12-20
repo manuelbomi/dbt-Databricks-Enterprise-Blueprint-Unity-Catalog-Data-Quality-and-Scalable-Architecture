@@ -527,8 +527,6 @@ dbt-databricks-enterprise-template/
 
 #### 2. Set Up Your IDE (VSCode or PyCharm is ideal). VSCode is Used in This Case Study
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/91c8b74e-c937-4b7c-a54c-f43e2399076e" />
-
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/b4dc5e81-ccb0-4c5d-89d6-432635ae5c32" />
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0b1e65e5-9a7f-4015-9988-5a30633f0842" />
@@ -536,6 +534,9 @@ dbt-databricks-enterprise-template/
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/3fd7f20a-8e64-4bf1-8ffb-55f1d77773e7" />
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/56981ed4-9e92-4477-add1-6d6652f25925" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/91c8b74e-c937-4b7c-a54c-f43e2399076e" />
+
 
 
 
