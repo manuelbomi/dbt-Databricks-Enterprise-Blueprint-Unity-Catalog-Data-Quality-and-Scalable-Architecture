@@ -548,9 +548,15 @@ dbt-databricks-enterprise-template/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/ccbe93cb-1dad-43c8-b92b-394a92a057fe" />
 
+##### After the access token is pasted just hit enter without inputing any number. You can then select whether or not you want Unity Catalog
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4c1fdfbc-0e6b-4645-a217-d8755afd8711" />
 
+##### Give the schema a name
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/94f25aa2-fb4e-485f-a5b2-ee348ed5f0b6" />
+
+##### Select how many orders to run in parallel, We select 5 here. Content of the profiles.yaml file in the .dbt folder
 
 <img width="394" height="197" alt="Image" src="https://github.com/user-attachments/assets/d8758d2b-5760-4490-ac2a-d046e055c837" />
 
