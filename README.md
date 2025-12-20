@@ -91,7 +91,7 @@ dbt docs serve     # View at localhost:8080
 >
 > Please see the full project structure under Miscellaneous. Only the dbt models are focused on here.
 >
-
+> 
 
 ```python
 models/
@@ -100,6 +100,8 @@ models/
 ├── marts/           # Business-ready datasets
 └── example/         # Tutorial models (your implementations)
 ```
+
+---
 
 ### Key Configuration Files
 
@@ -112,6 +114,8 @@ packages.yml: External package dependencies (dbt_utils, etc.)
 profiles.yml: Connection profiles (keep secure, use environment variables)
 
 ```
+
+---
 
 
 ## Data Quality Framework
@@ -129,6 +133,40 @@ tests:
 # Model-level override (model1.sql)
 {{ config(materialized='table', severity='warn') }}
 # Test will produce warning instead of error
+```
+
+---
+
+## Test Types Demonstrated
+
+- Column Tests: not_null, unique, accepted_values
+
+- Relationship Tests: Foreign key validation (commented example)
+
+- Custom Tests: Extensible through macros and SQL
+
+---
+
+## Advanced Features
+
+- Custom Macros
+
+```python
+{% macro dbt_databricks_proj_macro(column_name) %}
+    {{ column_name }} as macro_new_column
+{% endmacro %}
+```
+
+---
+
+## Jinja Loops for Dynamic SQL
+
+```python
+{% set list1 = ['gender', 'customerID', 'first_name'] %}
+SELECT {% for item in list1 %}
+           {{ item }}{% if not loop.last %}, {% endif %}
+       {% endfor %}
+FROM {{ source('bakehouse', 'sales_customers') }}
 ```
 
 
