@@ -512,14 +512,14 @@ dbt-databricks-enterprise-template/
 #### Use your enterprise Databricks account, or register for a Free Edition of Databricks
 
 
-#### Navigate to compute
+##### Navigate to compute
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/b3645380-ff02-422f-ba2f-544d136ef076" />
 
-#### Navigate to serverless starter warehouse and click into connection details
+##### Navigate to serverless starter warehouse and click into connection details
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/638ddf08-af97-47ee-9590-2ba4ed4472dd" />
 
-#### Copy server hostname, Http path, click on dbt and generate new token. Save all onto a notepad
+##### Copy server hostname, Http path, click on dbt and generate new token. Save all onto a notepad
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a4d0deb6-318a-4ef1-a5a5-ba2d602a0e7d" />
 
@@ -527,13 +527,23 @@ dbt-databricks-enterprise-template/
 
 #### 2. Set Up Your IDE (VSCode or PyCharm is ideal). VSCode is Used in This Case Study
 
+##### Create Virtual env
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/b4dc5e81-ccb0-4c5d-89d6-432635ae5c32" />
+
+##### Install dbt-core for databricks
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0b1e65e5-9a7f-4015-9988-5a30633f0842" />
 
+##### dbt-init to initialize dbt project
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/3fd7f20a-8e64-4bf1-8ffb-55f1d77773e7" />
 
+#####  Configure dbt init parameters
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/56981ed4-9e92-4477-add1-6d6652f25925" />
+
+##### Provide the hostname, http path and access token from your Databricks workspace
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/91c8b74e-c937-4b7c-a54c-f43e2399076e" />
 
