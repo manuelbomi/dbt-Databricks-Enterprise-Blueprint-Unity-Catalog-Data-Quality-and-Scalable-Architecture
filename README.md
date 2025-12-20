@@ -579,15 +579,27 @@ dbt-databricks-enterprise-template/
 ##### This is our dbt project structure
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0e0fc48a-c603-4dcf-ba49-4a5f566f7812" />
 
+##### This template is a model example
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/fc0c8056-ff89-4245-99d4-9d5eb552ff52" />
+
+##### This is the second model example. It refers to the first model
+
 <img width="975" height="402" alt="Image" src="https://github.com/user-attachments/assets/4d78929d-ce56-4d79-9b1a-abcb653c4595" />
+
+##### The schemal.yml will feature the data quality check
 
 <img width="889" height="432" alt="Image" src="https://github.com/user-attachments/assets/1427858c-6736-4be6-b96c-92760a3f1d5e" />
 
+##### dbt compile
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a7a0647e-66ec-4af4-9d41-596d9a6df3b1" />
+
+##### dbt compile will create a target file which will contain your compiled models. dbt run will push the models into yourtarget database
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/d58cc33d-9551-42a6-94d1-2b864e15eaee" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/fc0c8056-ff89-4245-99d4-9d5eb552ff52" />
+
 
 
 
