@@ -48,7 +48,7 @@ pip install dbt-core dbt-databricks
 
 ```python
 
-git clone https://github.com/yourusername/dbt-databricks-enterprise-template.git
+git clone https://github.com/manuelbomi/dbt-Databricks-Enterprise-Blueprint-Unity-Catalog-Data-Quality-and-Scalable-Architecture.git
 cd dbt-databricks-enterprise-template
 
 # Create virtual environment
