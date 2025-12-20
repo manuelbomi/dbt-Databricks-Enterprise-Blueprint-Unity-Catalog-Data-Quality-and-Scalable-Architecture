@@ -31,6 +31,8 @@ This repository documents a complete journey from initial setup to production de
 ##  Quick Start
 
 ### Repository Structure 
+
+```python
 dbt-databricks-enterprise-template/
 │
 ├── .github/
@@ -241,6 +243,8 @@ dbt-databricks-enterprise-template/
 ├── ROADMAP.md
 ├── LICENSE
 └── SECURITY.md
+
+```
 
 ### 1. Prerequisites
 ```bash
