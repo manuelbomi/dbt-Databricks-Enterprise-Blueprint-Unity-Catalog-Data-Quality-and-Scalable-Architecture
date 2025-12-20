@@ -740,6 +740,24 @@ dbt-databricks-enterprise-template/
 ##### Your dbt run --select will run only models with the tags
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4d377d00-b66f-4e90-9d97-5130f43f4a98" />
 
+#####  dbt docs generate will generate all the documentations for you
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/914a8137-366e-43d3-831c-4043d8c66828" />
+
+##### the docs will be available under target and catalog.json file
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0d859355-e08a-4e19-bd10-e5a852f205c4" />
+
+##### dbt docs serve will open up all the documentation in you localhost
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/737a26ed-87c1-423d-895d-ddd5341de2aa" />
+
+#####  The documentation will be available at localhost 8080 after using dbt docs serve
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/e7a65048-7640-41be-b28e-82de542b38e8" />
+
+##### The docs can also show the lineage with the source and its dependencies
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4394fc70-1982-4418-b506-03cbb4fd5268" />
+
+
+
+
 
 
 
