@@ -22,13 +22,13 @@ This repository documents a complete journey from initial setup to production de
 
 | Feature | Description | Your Implementation |
 |---------|-------------|---------------------|
-| **Unity Catalog Integration** | Modern data governance with Databricks | ✅ Complete setup with `workspace` catalog |
-| **Data Quality Framework** | Configurable test severity (error/warn) | ✅ Model-level overrides demonstrated |
-| **Custom Macros** | Reusable transformation logic | ✅ `dbt_databricks_proj_macro` with column transformation |
-| **Jinja Templates** | Dynamic SQL generation | ✅ Loop-based column selection in `model3.sql` |
-| **Package Management** | External dependency handling | ✅ `dbt_utils` integration |
-| **Automated Documentation** | Self-serve data catalog | ✅ Local docs at `localhost:8080` |
-| **Seed Data Loading** | CSV to table automation | ✅ `data.csv` with automatic schema inference |
+| **Unity Catalog Integration** | Modern data governance with Databricks |  Complete setup with `workspace` catalog |
+| **Data Quality Framework** | Configurable test severity (error/warn) |  Model-level overrides demonstrated |
+| **Custom Macros** | Reusable transformation logic |  `dbt_databricks_proj_macro` with column transformation |
+| **Jinja Templates** | Dynamic SQL generation |  Loop-based column selection in `model3.sql` |
+| **Package Management** | External dependency handling |  `dbt_utils` integration |
+| **Automated Documentation** | Self-serve data catalog |  Local docs at `localhost:8080` |
+| **Seed Data Loading** | CSV to table automation |  `data.csv` with automatic schema inference |
 
 ##  Quick Start
 
